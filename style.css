@@ -1,0 +1,64 @@
+body {
+    background-color: #ededed;
+}
+.nav {
+    background-color: #415462;
+    //background-color: #3d3e3f;
+}
+
+.nav a {
+    color: #fff;
+}
+.mobile-menu-toggle {
+    display: none;
+}
+.menu {
+    display: flex;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0 20px;
+}
+
+section {
+    margin: 0;
+    padding: 15px 0;
+}
+
+tr th {
+    border-bottom: 2px solid #424242;
+}
+tr td {
+    border-bottom: 1px solid #424242;
+}
+/* Четные */
+table tr:nth-child(2n) td{ background: #e9e9e9; }
+/* Нечетные */
+table tr:nth-child(2n+1) td{ background: #ddd; }
+
+
+.button-primary-red {
+    background-color: #fff;
+    color: #f44336;;
+    border-color: #f44336;; 
+}
+
+.button-small {
+    letter-spacing: 0;
+    text-transform: none;
+    padding: 0 18px;
+}
+
+.button-info {
+    background-color: #808080;
+}
+
+.button-blue {
+    background-color: #1095c1;
+    color: #fff;
+}
+
+
+.button-dark-blue {
+    background-color: #415462;
+    color: #fff;
+}
